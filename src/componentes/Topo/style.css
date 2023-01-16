@@ -1,0 +1,36 @@
+.topo-topo {
+  padding: 10px 15px;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%
+}
+
+
+.imagem-topo{
+  width: 150px;
+}
+
+.link-topo{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 550px){
+  .topo{
+    flex-direction: column;
+  }
+  .topo nav{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-top:1px solid #aaadaf ;
+  }
+}

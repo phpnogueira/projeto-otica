@@ -1,0 +1,25 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif ;
+}
+
+.limitar-secao{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 0
+}
+
+@media only screen and (max-width: 1024px){
+  .limitar-secao{
+    width:100%;
+  }
+}
